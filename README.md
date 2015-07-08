@@ -15,16 +15,16 @@ yum install  subversion-devel
 pip2.7 install pygments
 
 # install pysvn
-##pysvn-1.7.10.tar 
-##tar -xvf pysvn-1.7.10.tar
-##cd Source
-##python setup.py configure
-##make
-##cd ../Tests
-##make
-##cd Source
-##mkdir [YOUR PYTHON LIBDIR]/site-packages/pysvn
-##cp pysvn/__init__.py [YOUR PYTHON LIBDIR]/site-packages/pysvn
-cp pysvn/_pysvn*.so [YOUR PYTHON LIBDIR]/site-packages/pysvn
+pysvn-1.7.10.tar <br>
+tar -xvf pysvn-1.7.10.tar<br>
+cd Source<br>
+python setup.py configure<br>
+make<br>
+cd ../Tests<br>
+make<br>
+cd Source<br>
+mkdir [YOUR PYTHON LIBDIR]/site-packages/pysvn<br>
+cp pysvn/__init__.py [YOUR PYTHON LIBDIR]/site-packages/pysvn<br>
+cp pysvn/_pysvn*.so [YOUR PYTHON LIBDIR]/site-packages/pysvn<br>
 
 
